@@ -1,0 +1,57 @@
+.first-row, .second-row{
+    margin:20px;
+    display:flex;
+}
+
+.offer{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 1px solid #4c4c4c;
+    margin-left: 10px;
+    width: 33%;
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
+
+.offer img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.offer #learn{
+    background-color: blueviolet;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.offer #learn:hover{
+    background-color:#fff;
+    color:blueviolet;
+}
+
+
+
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width:600px) {
+    .first-row, .second-row{
+        display: block;
+    }
+
+    .offer{
+        margin: 5px 0 0 0 ;
+        padding: 5px 0 0 5px;
+        width: 100%;
+    }
+
+    .offer #learn{
+        margin-bottom: 5px;
+    }
+    
+}
