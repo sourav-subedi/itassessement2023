@@ -1,0 +1,64 @@
+.describe{
+    margin: 5px 10px 5px 10px;
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 0 5px 5px 0;
+}
+
+.describe .image{
+    width: 25%;
+    text-align: center;
+}
+.describe .image img{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border-radius:50%;
+}
+.describe .explain{
+    border-left:  solid 2px;
+    padding: 20px;
+    width: 75%;
+}
+.describe .explain h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.describe .explain p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query section */
+
+@media screen and (max-width:600px) {
+    .describe{
+        margin-top:5px;
+        border-radius: 10px;
+        display: block;
+    }
+    .describe .image{
+        width: 100%;
+    }
+    .describe .image img{
+        border-radius: 0;
+    }
+    .describe .explain{
+        padding: 0;
+        border: 0;
+    }
+    
+}
