@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form.txt">
+        <table style="background-color: aliceblue;" align="center">
+            <caption>Registration Form</caption>
+            <tr><th>Enter Your First name</th><td><input type="text" placeholder="Enter your name"></td></tr>
+            <tr><th>Enter your last name</th><td><input type="text"></td></tr>
+            <tr><th>Enter your Password</th><td><input type="password"></td></tr>
+            <tr><th>ReEnter your password</th><td><input type="password"></td></tr>
+            <tr><th>Enter your email</th><td><input type="email"></td></tr>
+            <tr><th>Enter your mobile</th><td><input type="number"></td></tr>
+            <tr><th>Enter your Address</th><td><textarea name="address" id="ad" cols="20" rows="7"></textarea></td></tr>
+            <tr><th>Select your gender</th><td>
+                <input type="radio" id="male" name="gender" value="male" checked> Male
+                <input type="radio" id="female" name="gender" value="female" > Female
+                <input type="radio" id="other" name="gender" value="other" > Other
+            </td></tr>
+            <tr><th>Select your hobbies</th><td>
+                <input type="checkbox" name="hobby"> Hobby1
+                <input type="checkbox" name="hobby" > Hobby2
+                <input type="checkbox"name="hobby" > Hobby3
+            </td></tr>
+            <tr><th>Select your DOB</th><td><input type="date"></td></tr>
+            <tr><th>Select Your country</th><td>
+                <select name="country">
+                    <option value="C1" > Nepal </option>
+                    <option value="C2"> China </option>
+                    <option value="C3"> India </option>
+                    <option value="C4"> USA </option>
+                    </select>
+            </td></tr>
+            <tr><th>Upload your pic</th><td><input type="file"></td></tr>
+            <tr>
+                <td colspan="2" align="center">
+                <input type="submit" value="Submit My Data">
+                <input type="reset" value="Reset Data">
+            </td></tr>
+
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex3</title>
+  </head>
+  <body>
+    <script>
+      // Prompt user for marks
+      let marks = prompt("Enter your marks:");
+
+      // Check for the grade using if...else if...else
+      if (marks >= 80 && marks <= 100) {
+        alert("Distinction");
+      } else if (marks >= 60 && marks < 80) {
+        alert("First Division");
+      } else if (marks >= 50 && marks < 60) {
+        alert("Second Division");
+      } else if (marks >= 40 && marks < 50) {
+        alert("Third Division");
+      } else {
+        alert("Fail");
+      }
+    </script>
+  </body>
+</html>

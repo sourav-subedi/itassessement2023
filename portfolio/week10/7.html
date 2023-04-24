@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex7</title>
+  </head>
+  <body>
+    <script>
+       // Define the table headers
+document.write("<table>");
+document.write("<tr><th>S.N</th><th>Name</th><th>Image</th></tr>");
+
+// Use a for loop to display table rows
+for (let i = 1; i <= 5; i++) {
+  let bgColor = i % 2 === 0 ? "#65c9df" : "#9de0e7";
+  document.write("<tr style='background-color: " + bgColor + ";'>");
+  document.write("<td>" + i + "</td>");
+  document.write("<td>" + "Name " + i + "</td>");
+  document.write("<td>" + "Image" + i + "</td>");
+  document.write("</tr>");
+}
+
+// Close the table tag
+document.write("</table>");
+
+
+
+    </script>
+  </body>
+</html>
